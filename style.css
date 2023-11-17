@@ -29,49 +29,49 @@ video {
 
 
 #month {
-    width: 150px;
-    height: 65px;
+    width: 15vw;
+    height: 6vw;
     background: #424142;
     color: #e8e7e8;
     font-family: arial;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 5.5vw;
     letter-spacing: 1px;
     border: 0px solid black;
     position: absolute;
-    left: 65px;
-    top: 1100px;
+    left: 7vw;
+    top: 111.5vw;
 }
 
-#month {
-    width: 150px;
-    height: 65px;
+#clock {
+    width: 24vw;
+    height: 7vw;
     background: #424142;
-    color: #e8e7e8;
-    font-family: arial;
+    color: #518b32;
+    font-family: sans-serif;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 5.5vw;
     letter-spacing: 1px;
     border: 0px solid black;
     position: absolute;
-    left: 86px;
-    top: 1214px;
+    left: 69vw;
+    top: 111.5vw;
 }
+
 
 #strok {
-    width: 600px;
-    height: 60px;
+    width: 58vw;
+    height: 7vw;
     color: #e8e7e8;
     text-align: center;
     background: #1f1e1f;
-    font-family: arial;
+    font-family: 'Open Sans';
     font-weight: 500;
-    font-size: 49px;
+    font-size: 4.35vw;
     position: absolute;
-    top: 1547px;
-    left: 241px;
+    top: 141vw;
+    left: 21vw;
 }
-
 
 
 
