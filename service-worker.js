@@ -29,6 +29,5 @@ self.addEventListener('install', function(event) {
     );
   });
   
-  importScripts('/path/to/sw-toolbox.js');
 
   
