@@ -7,14 +7,14 @@ self.addEventListener('install', function(event) {
           '/index.html',
           '/styles.css',
           '/myscript.js',
-          'index.html',
-          'icon.png',
-          'myscript.js',
-          'main.mp4',
-          'manifest.json',
-          'sw-toolbox.js',
-          'sw.js',
-          'icons'
+          '/index.html',
+          '/icon.png',
+          '/myscript.js',
+          '/main.mp4',
+          '/manifest.json',
+          '/sw-toolbox.js',
+          '/sw.js',
+          '/icons'
           // додайте інші ресурси, які ви хочете кешувати
         ]);
       })
