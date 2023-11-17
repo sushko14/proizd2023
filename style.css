@@ -32,7 +32,7 @@ video {
     width: 150px;
     height: 65px;
     background: #424142;
-    color: #ffffff;
+    color: #e8e7e8;
     font-family: arial;
     font-weight: 700;
     font-size: 55px;
@@ -60,6 +60,7 @@ video {
 #strok {
 	width: 600px;
     height: 60px;
+    color: #e8e7e8;
     text-align: center;
     background: #1f1e1f;
     font-family: arial;
