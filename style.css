@@ -32,14 +32,14 @@ video {
     width: 150px;
     height: 65px;
     background: #424142;
-    color: #222222;
+    color: #ffffff;
     font-family: arial;
     font-weight: 700;
     font-size: 55px;
     letter-spacing: 1px;
     border: 0px solid black;
     position: absolute;
-    left: 60px;
+    left: 65px;
     top: 1100px;
 }
 
@@ -47,7 +47,7 @@ video {
 	width: 250px;
     height: 65px;
     background: #424142;
-    color: #8dc641;
+    color: #4b9027;
     font-family: arial;
     font-weight: 600;
     font-size: 55px;
