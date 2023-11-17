@@ -1,69 +1,43 @@
-
-
-
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
 	<title></title>
-
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="myscript.js"></script>
-	<script type="text/javascript" src="sw.js"></script>
-	<script type="text/javascript" src="sw-toolbox.js"></script>
-	<script src="/assets/js/app.js"></script>
-
 	<link rel="manifest" href="manifest.json">
-	<link rel="manifest" href="manifest.json">
-
-
-   <script>
-       if ('serviceWorker' in navigator) {
-           window.addEventListener('load', function() {
-               navigator.serviceWorker.register('/sw.js').then(function(registration) {
-                   // Registration was successful
-               console.log('ServiceWorker registration successful with scope: ', registration.scope);
-             }, function(err) {
-               // registration failed :(
-               console.log('ServiceWorker registration failed: ', err);
-             }).catch(function(err) {
-               console.log(err)
-             });
-           });
-         } else {
-           console.log('service worker is not supported');
-         }
-   </script>	
-
-   
-
+	<script>
+		console.log(navigator.serviceWorker)
+		if ('serviceWorker' in navigator) {
+		  navigator.serviceWorker.register('./service-worker.js')
+			.then(function(registration) {
+			  console.log('Service Worker зареєстрований з успіхом:', registration);
+			})
+			.catch(function(error) {
+			  console.log('Помилка при реєстрації Service Worker:', error);
+			});
+		}
+	  </script>
+	
 </head>
 
 <body>
 
+	<div class="main"> 
+		<video muted autoplay  height="" loop="loop">
+			<source src="main.mp4" type="video/mp4">
+		</video>
 
-<div class="main"> 
-	<video muted autoplay  height="" loop="loop">
-		<source src="main.mp4" type="video/mp4">
-	</video>
+		<div id="month"> </div>
 
-	<div id="month">
-	</div>
+		<div id="clock"></div>
 
-	<div id="clock">
-	</div>
-
-	<div id="strok">
-	</div>
+		<div id="strok"></div>
 
 </div>
-
-
-
-
 	
-		
+<script src="myscript.js"></script>
+<script type="text/javascript" src="sw.js"></script>
+<script type="text/javascript" src="sw-toolbox.js"></script>
 	
-
 </body>
 
 </html>
