@@ -34,12 +34,27 @@ video {
 }
 
 
+#time {
+    width: 13vw;
+    height: 4vw;
+    background: #010001;
+    color: #e8e7e8;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 3.8vw;
+    letter-spacing: 1px;
+    border: 0px solid black;
+    position: absolute;
+    left: 3vw;
+    top: 0.6999999999999993vw;
+}
+
 #month {
     width: 15vw;
     height: 6vw;
     background: #424142;
     color: #e8e7e8;
-    font-family: arial;
+    font-family: sans-serif;
     font-weight: 700;
     font-size: 5.5vw;
     letter-spacing: 1px;
